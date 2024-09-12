@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    color:#333;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    background-color:#f8f8f8;
+}
+
+.logo img{
+    width:120px;
+}
+
+
+.nav-links{
+    list-style:none;
+    display:flex;
+}
+
+.nav-links li{
+    margin-left:20px;
+}
+
+.nav-links a{
+    padding:10px 20px;
+    background-color:#007BFF;
+    color:white;
+    border-radius:5px;
+}
+
+
+.ugyan{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:100px 50px;
+    background-color:#f1f1f1;
+    text-align:center;
+}
+
+.ugyan-content{
+    max-width:50%;
+    text-align:center;
+}
+
+.ugyan h1{
+    font-size:3rem;
+    color:#007BFF;
+    text-align:center;
+}
+
+.ugyan p{
+    font-size:1.5rem;
+    margin:20px 0;
+    text-align:center;
+}
+
+.ugyan .btn{
+    padding:10px 20px;
+    background-color:#28a745;
+    color:white;
+    border-radius:5px;
+    font-size:1.2rem;
+    text-align:center;
+}
+
+.ugyan img{
+    max-width:40%;
+    text-align:center;
+}
+
+
+.about{
+    padding:50px;
+    background-color:#fff;
+    text-align:center;
+}
+
+.about h2{
+    font-size:2.5rem;
+    color:#007BFF;
+    
+}
+
+
+.choose-box{
+    display:inline-block;
+    width:30%;
+    margin:20px;
+    text-align:center;
+}
+
+
+.Founders-box{
+    display:inline-block;
+    width:30%;
+    margin:20px;
+    text-align:center;
+}
+
+.Industry partners-box{
+    width:120px;
+}
+
+
+.contact{
+    padding:50px;
+    background-color:#fff;
+    text-align:center;
+}
+
+.contact h2{
+    font-size:2.5rem;
+    color:#007BFF;
+    text-align:center;
+}
+
+.contact p{
+    font-size:1.2rem;
+    
+}
+
+
+footer{
+    padding: 20px;
+    background-color:#333;
+    color:white;
+    text-align:center;
+}
+
+
